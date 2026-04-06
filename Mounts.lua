@@ -320,7 +320,6 @@ function Mounts:MatchesFilters(mountData, filters)
 
 	local wantsType =
 		filters.ground or
-		filters.flying or
 		filters.aquatic or
 		filters.dragonriding
 
@@ -329,10 +328,6 @@ function Mounts:MatchesFilters(mountData, filters)
 	end
 
 	if filters.ground and mountData.mountCategory == Enum.MountType.Ground then
-		return true
-	end
-
-	if filters.flying and mountData.mountCategory == Enum.MountType.Flying then
 		return true
 	end
 

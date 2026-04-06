@@ -179,7 +179,6 @@ function Manager:CreateFrame()
 	self.searchText = ""
 	self.filters = {
 		ground = false,
-		flying = false,
 		aquatic = false,
 		dragonriding = false,
 		usableOnly = false,
@@ -241,8 +240,7 @@ function Manager:CreateFrame()
 	end
 
 	frame.GroundFilter = CreateFilterCheckbox("ground", "Ground", "TOPLEFT", frame.FilterLabel, "BOTTOMLEFT", -4)
-	frame.FlyingFilter = CreateFilterCheckbox("flying", "Flying", "LEFT", frame.GroundFilter, "RIGHT", 96)
-	frame.AquaticFilter = CreateFilterCheckbox("aquatic", "Aquatic", "LEFT", frame.FlyingFilter, "RIGHT", 96)
+	frame.AquaticFilter = CreateFilterCheckbox("aquatic", "Aquatic", "LEFT", frame.GroundFilter, "RIGHT", 160)
 	frame.DragonridingFilter = CreateFilterCheckbox("dragonriding", "Dragonriding / Skyriding", "LEFT", frame.AquaticFilter, "RIGHT", 96)
 	frame.UsableOnlyFilter = CreateFilterCheckbox("usableOnly", "Usable only", "LEFT", frame.DragonridingFilter, "RIGHT", 156)
 
