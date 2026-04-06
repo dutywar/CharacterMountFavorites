@@ -1,0 +1,15 @@
+## Interface: 120001
+## Title: CharacterMountFavorites
+## Notes: Character-specific mount favorites for Retail WoW.
+## Author: Dutywar
+## Version: 1.0.0
+## SavedVariables: CharacterMountFavoritesDB
+
+Database.lua
+Mounts.lua
+SummonIcon.lua
+FavoritesManager.lua
+MinimapButton.lua
+SettingsPanel.lua
+JournalIntegration.lua
+Core.lua
