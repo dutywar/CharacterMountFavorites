@@ -17,9 +17,13 @@ All notable changes to `CharacterMountFavorites` will be documented in this file
 - Action-bar shortcut support through the summon icon.
 
 ### Changed
+- Updated addon author to `Dutywar`.
 - Updated summon icon texture to WoW icon `413588`.
 - Reworked the settings panel layout for cleaner spacing and readability.
 - Simplified the favorites manager list to `Name`, `Type`, and `Favorite`.
+- Removed the `Source` column from the favorites manager.
+- Removed the `Flying` filter from the favorites manager.
+- Changed the summon control presentation to icon-only in addon UI locations.
 - Restyled the summon icon to better match the addon UI.
 
 ### Fixed
@@ -28,3 +32,4 @@ All notable changes to `CharacterMountFavorites` will be documented in this file
 - Fixed the floating `Favorite` header appearing in the middle of the manager.
 - Fixed stray visible text leaking from favorite toggle controls.
 - Fixed summon icon drag behavior for action-bar shortcut creation.
+- Fixed visible text appearing next to the summon icon.
